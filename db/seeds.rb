@@ -16,16 +16,16 @@ Brand.create(name: 'Sephora')
 Category.create(name: 'Face')
 Category.create(name: 'Lips')
 
-Product.create(name: 'RX-0 Unicorn Gundam', brand_id: 4, cost_price: 3 , selling_price: 11, stock: 10, images_attributes: [{url: 'http://cdn.pcwallart.com/images/custom-gundam-models-wallpaper-1.jpg', position: 1}], description: ' RX-0 Unicorn Gundam (Destroy Mode)')
+Product.create(name: 'Lightning Black Warrior', brand_id: 4, cost_price: 3 , selling_price: 11, stock: 10, images_attributes: [{url: 'https://i0.wp.com/www.gunpla101.com/wp-content/uploads/2017/10/black-warrior.jpg?resize=1200%2C675&ssl=1', position: 1}], description: ' Lightning Black Warrior')
 
-Product.create(name: 'GAT-X105 Strike Gundam', brand_id: 3, cost_price: 22 , selling_price: 59, stock: 10, images_attributes: [{url: 'http://www.gunjap.net/site/wp-content/uploads/2012/10/1896.jpg', position: 1}], description: 'GAT-X105 Strike Gundam' )
+Product.create(name: 'Black Tri-Stars Zaku II Hi Maneuver Type', brand_id: 3, cost_price: 22 , selling_price: 59, stock: 10, images_attributes: [{url: 'https://images-na.ssl-images-amazon.com/images/I/51WcP-aDgFL.jpg', position: 1}], description: 'Black Tri-Stars Zaku II Hi Maneuver Type' )
 
-Product.create(name: 'GAT-X105 Strike Gundam', brand_id: 1, cost_price: 15 , selling_price: 31, stock: 10, images_attributes: [{url: 'http://www.gunjap.net/site/wp-content/uploads/2012/04/1496.jpg', position: 1}], description: 'GAT-X105 Strike Gundam' )
+Product.create(name: 'RX-0 Unicorn Gundam', brand_id: 1, cost_price: 15 , selling_price: 31, stock: 10, images_attributes: [{url: 'https://images-na.ssl-images-amazon.com/images/I/41kFC8s6lzL._SY450_.jpg', position: 1}], description: 'RX-0 Unicorn Gundam' )
 
-Product.create(name: 'RX-0 Unicorn Gundam 02 Banshee', brand_id: 1, cost_price: 19, selling_price: 40, stock: 10, images_attributes: [{url: 'https://img.alicdn.com/imgextra/i1/136281495/TB21x_3bVXXXXaIXXXXXXXXXXXX_!!136281495.jpg', position: 1}], description: 'RX-0 Unicorn Gundam 02 Banshee' )
+Product.create(name: 'Gundam Astray Red Frame', brand_id: 1, cost_price: 19, selling_price: 40, stock: 10, images_attributes: [{url: 'https://i5.walmartimages.com/asr/54dd4608-af0b-439d-be5e-c383a4469e06_1.b9a8460697d510989aa79feca4869942.jpeg', position: 1}], description: 'Gundam Astray Red Frame' )
 
-Product.create(name: 'ZGMF-X10A Freedom Gundam', brand_id: 2, cost_price: 20, selling_price: 49, stock: 10, images_attributes: [{url: 'http://wonderexcellence.sub.jp/gallery/wsfa1/wsfa1.jpg', position: 1}], description: 'ZGMF-X10A Freedom Gundam' )
+Product.create(name: 'Gundam X Devil', brand_id: 2, cost_price: 20, selling_price: 49, stock: 10, images_attributes: [{url: 'https://images-na.ssl-images-amazon.com/images/I/710azzoKoHL._SY550_.jpg', position: 1}], description: 'Gundam X Devil' )
 
-Product.create(name: 'RX-0 Unicorn Gundam 02 Banshee', brand_id: 2, cost_price: 8, selling_price: 26, stock: 10, images_attributes: [{url: 'http://sg.p-bandai.asia/glpb/SG/img/model/b/1000001061_5.jpg', position: 1}], description: 'RX-0 Unicorn Gundam 02 Banshee' )
+Product.create(name: 'Gundam Double X', brand_id: 2, cost_price: 8, selling_price: 26, stock: 10, images_attributes: [{url: 'https://images-na.ssl-images-amazon.com/images/I/71aIE2W8aKL._SL1203_.jpg', position: 1}], description: 'Gundam Double X' )
 
-Product.create(name: 'Customized Zaku II Model', brand_id: 3, cost_price: 15, selling_price: 39, stock: 10, images_attributes: [{url: 'http://www.gunjap.net/site/wp-content/uploads/2011/11/1461.jpg', position: 1}], description: "Customized Zaku II Model" )
+Product.create(name: 'Customized Zaku II Model', brand_id: 3, cost_price: 15, selling_price: 39, stock: 10, images_attributes: [{url: 'https://cdn.shopify.com/s/files/1/0736/6567/products/gundam-seed-master-grade-1-100-plastic-model-zgmf-x13a-providence-gundam-g-u-n-d-a-m-premium-edition_HYPETOKYO_1_1024x1024.jpg?v=1486865949, position: 1}], description: "Customized Zaku II Model" )

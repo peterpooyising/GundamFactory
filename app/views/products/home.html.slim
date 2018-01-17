@@ -1,9 +1,9 @@
 = render 'layouts/menu'
 
-.parallax
+.parallax style=("min-height: 100vh; min-width: 100vw")
 
 .container-fluid.text-center style="background-color:white; padding: 100px 0px"
-  h1 PRODUCTS WE LOVE
+  h1 MODELS
   - @products.take(4).each.with_index(1) do |product, index|
     = link_to product_path(product), class: 'product-show-link' do
       .card.product-box
