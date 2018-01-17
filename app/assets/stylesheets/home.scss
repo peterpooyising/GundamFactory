@@ -1,19 +1,45 @@
 .parallax {
-
-    background-image: url("gundam-unicorn-wallpaper-1080p-As-Wallpaper-HD");
-    min-height: 800px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("gundam-unicorn-wallpaper-1080p-As-Wallpaper-HD");
+  min-height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
 .second-parallax {
-    display: flex;
-    flex-direction: row;
-    min-height: 600px;
-    background: white;
+  display: flex;
+  flex-direction: row;
+  min-height: 600px;
+  background: white;
+  position: relative;
 }
+
+.word-logo {
+  font-family: 'Coustard', serif;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-title {
+  font-size: 5em;
+  margin: 0;
+}
+.logo-description {
+  font-size: 1em;
+  margin: 0;
+}
+
 
 .testimonial-photo {
   background-image: url("gundambackground2.jpg");
@@ -22,6 +48,8 @@
   background-position: 0 center;
   background-repeat: no-repeat;
   background-size: contain;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
 }
 
 .testimonial-photo {
@@ -34,12 +62,46 @@
 .testimonial-words {
   flex-basis: 50%;
   flex-direction: column;
-  border-top: 10px solid #000;
-  border-bottom: 10px solid #000;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  background: gainsboro;
 }
 
 .testimonial-title {
   margin-bottom: 1em;
+}
+
+.subscription {
+  margin: 0;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+.form-inline.d-flex.justify-content-center input {
+  width: 20em;
+  border-radius: 3px;
+  border: 2px solid #000;
+  padding: 15px 18px;
+  font-style: italic;
+  vertical-align: middle;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.form-inline.d-flex.justify-content-center button {
+  border-radius: 3px;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  border-color: #000;
+  border-width: 0;
+  line-height: 1;
+  text-align: center;
+  display: inline-block;
+  border-style: solid;
 }
 
 .hide {

@@ -1,6 +1,9 @@
 = render 'layouts/menu'
 
-.parallax style=("min-height: 100vh; min-width: 100vw")
+.parallax
+  div.word-logo
+    p.logo-title GUNDAMFACTORY©
+    / p.logo-description Robots come to life
 
 .container-fluid.text-center style="background-color:white; padding: 100px 0px"
   h1 NEW MODELS
@@ -31,16 +34,16 @@
       .carousel-inner
         .carousel-item.active
           .container
-            p "After hearing about peptides on the Dr. Oz Show, I found this page and thought I'd give it a try. I'm very glad I did and I just ordered it here. I am 70 years young and use this twice daily. My skin feels and appears tighter and is glowing. I have received many compliments. I use it under a daily moisturizer with sunscreen in the morning, but at night I use this and then use rose hip seed oil afterwards. I'm extremely happy with this product."
-            p -Judy
+            p "I am very happy to find this store and bought what I want. They have all the new release Gundam models. I also like the concept that the store provides space to build and paint the model there. The place is neat, clean and organize. The price is very reasonable and tax included. They even gave free cutter with purchase. Why save couple dollars from Amazon instead of supporting local business? In here, you can check out the box, parts before you buy. The owner also provides lot of good advises and information. This is a must go for all the Gundam fan!"
+            p - Alberto Lee
         .carousel-item
           .container
-            p "Another product that I love. I have tried several of their products, and all of them are very high quality. I also use the hyaluronic acid serum and the Argangold argan oil. These are extremely good, quality products at a very reasonable price -- much better than department store products."
-            p -Samantha Martins
+            p "This is a great one-stop shop for everything Gundam! Besides selling kits, paints, decals, accessories, and tools, they even have tables and tools (including airbrush stations!) that you can use to work on your Gundam. The store is bright and well-organized, and the staff is very knowledgeable and friendly. You can also check out their showcase of completed models for ideas, or catch up on an episode of whatever Gundam series they happen to be playing."
+            p - Jacob Goh
         .carousel-item
           .container
-            p "Easy to order online and delivery was fast"
-            p -Martins
+            p "Intuitive ordering system and fast delivery. Will buy again."
+            p - Timothy Tan
       a.carousel-control-prev data-slide="prev" href="#carouselExampleIndicators" role="button"
         span.carousel-control-prev-icon aria-hidden="true"
         span.sr-only Previous
@@ -69,14 +72,14 @@
             .card-footer style="margin-top:10px"
               = link_to 'Add to cart', add_to_cart_path(product), method: :put, remote: true, class: 'btn btn-block btn-outline-dark add-btn', id: "add-to-cart-#{product.id}"
 
-.jumbotron.jumbotron-fluid.text-center style="margin-bottom: 0px; background-color: #F3D6DB;"
+.jumbotron.jumbotron-fluid.text-center style="margin-bottom: 0px; background-color: gainsboro; border-top: 2px solid #000"
   .container
-    h1 MAILING LIST
-    p Subscribe to our mailing list to enjoy special discounts and promotions!
+    h1 SUBSCRIPTION
+    p.subscription Subscribe to our weekly newsletter to enjoy special discounts and promotions for free!
     br
     form
     .form-inline.d-flex.justify-content-center
       form-group
-        input type="email" class="form-group" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"
+        input type="email" class="form-group" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email here"
       |&nbsp;
       button type="submit" class="btn btn-light" Submit

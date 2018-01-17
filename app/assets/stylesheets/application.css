@@ -13,7 +13,7 @@
 *= require_tree .
 *= require_self
 */
-
+@import url('https://fonts.googleapis.com/css?family=Coustard:400,900');
 body {
   font-family: 'Barlow Semi Condensed', sans-serif;
 }

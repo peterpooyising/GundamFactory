@@ -8,11 +8,15 @@
     = link_to 'Add new brand', new_admin_brand_path
     br
     br
-    ol
-      - @brands.each do |brand|
-        li
+    - @brands.each do |brand|
+      .containerlist
+        .containername
           = brand.name
-          |&nbsp;
-          = link_to 'Edit', edit_admin_brand_path(brand)
-          |&nbsp;
-          = link_to 'Delete', admin_brand_path(brand), method: :delete, 'data-confirm': 'Are you sure?'
+        |&nbsp;
+        .containerbtns
+          <button type="button" class="btn btn-dark">
+            = link_to 'Edit', edit_admin_brand_path(brand)
+          </button>
+          <button type="button" class="btn btn-danger">
+            = link_to 'Delete', admin_brand_path(brand), method: :delete, 'data-confirm': 'Are you sure?'
+          </button>

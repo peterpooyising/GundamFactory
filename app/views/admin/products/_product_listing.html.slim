@@ -1,30 +1,31 @@
 = paginate @products, remote: true
 p = page_entries_info @products
-- @products.each.with_index(1) do |product, index|
-  .card-deck.product-box.mb-2
-    .card style=("width: 280px; height:auto;")
-      img.card-img-top style=("width: 297px; height:300px;") src=product.main_image_url
+div.gallery
+  - @products.each.with_index(1) do |product, index|
+    .card-deck.product-box.mb-2
+      .card style=("width: 280px; height:auto;")
+        img.card-img-top style=("width: 297px; height:300px;") src=product.main_image_url
 
-      .card-body style="height: 280px"
-        h4.card-title
-          = product.name
-        p
-          = "Brand: #{product.brand.name}"
-          br
-          = "Category: #{product.categories.map(&:name).join(', ')}"
-          br
-          br
-          = "Cost Price: $#{product.cost_price}"
-          br
-          = "Selling Price: $#{product.selling_price}"
-          br
-          br
-          = "Stock available: #{product.stock}"
-          br
-      .card-footer.d-flex.justify-content-around
-        = link_to 'Show', admin_product_path(product), class: "btn btn-dark btn-sm"
-        = link_to 'Edit', edit_admin_product_path(product), class: "btn btn-dark btn-sm"
-        = link_to 'Delete', admin_product_path(product), class: "btn btn-danger btn-sm", method: :delete, 'data-confirm': 'Are you sure?'
+        .card-body style="height: 280px"
+          h4.card-title
+            = product.name
+          p
+            = "Brand: #{product.brand.name}"
+            br
+            = "Category: #{product.categories.map(&:name).join(', ')}"
+            br
+            br
+            = "Cost Price: $#{product.cost_price}"
+            br
+            = "Selling Price: $#{product.selling_price}"
+            br
+            br
+            = "Stock available: #{product.stock}"
+            br
+        .card-footer.d-flex
+          = link_to 'Show', admin_product_path(product), class: "btn btn-dark btn-sm"
+          = link_to 'Edit', edit_admin_product_path(product), class: "btn btn-dark btn-sm"
+          = link_to 'Delete', admin_product_path(product), class: "btn btn-danger btn-sm", method: :delete, 'data-confirm': 'Are you sure?'
 
 = paginate @products, remote: true
 br

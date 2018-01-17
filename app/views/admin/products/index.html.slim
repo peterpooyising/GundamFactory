@@ -3,12 +3,9 @@ br
 h1.text-center Welcome, Admin!
 
 br
-.container-fluid
-  .row.justify-content-center
-    .col-2
-      .filterrific-box
-        p = link_to 'Add new product?', new_admin_product_path
-        = render 'products/filterrific_form'
-
-    #product-listing.col-9.product-backbox
-      = render 'product_listing'
+.container-fluid.productsdisplay
+  .filterrific-box
+    p = link_to 'Add new product?', new_admin_product_path
+    = render 'products/filterrific_form'
+  #product-listing.col-9.product-backbox
+    = render 'product_listing'

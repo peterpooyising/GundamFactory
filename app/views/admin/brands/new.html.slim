@@ -4,7 +4,8 @@
   br
 
   h3 ADD NEW BRAND
-
-  = simple_form_for @brand, url: admin_brands_path, method: :post do |f|
-    = f.input :name
-    = f.button :submit, class: 'btn btn-success'
+  .form
+    = simple_form_for @brand, url: admin_brands_path, method: :post do |f|
+      .form-input
+        = f.input :name
+        = f.button :submit, class: 'btn btn-success'

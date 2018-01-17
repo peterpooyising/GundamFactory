@@ -17,13 +17,13 @@
       </li>
 
       <li class="nav-item cart ml-auto">
-        <%= image_tag "/assets/cart.svg", height: '40', width: '25' %>
+        <%= image_tag "/assets/greencart.svg", height: '40', width: '25' %>
         <%= render 'carts/cart' %>
       </li>
 
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle text-danger" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Menu
+          Settings
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <%= link_to 'Orders', orders_path, class: 'dropdown-item' if customer_signed_in? %>

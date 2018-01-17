@@ -1,3 +1,36 @@
 // Place all the styles related to the brands controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.container.text-center.show-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+
+.containerlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.containername {
+  max-width: 300px;
+  flex-basis: 20%
+}
+.containerbtns {
+  display: inline-block;
+  margin-left: 10px;
+  flex-basis: 20%
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.form-input {
+  display: inline-block;
+}

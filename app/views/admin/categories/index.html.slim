@@ -1,14 +1,22 @@
-= link_to 'Back to product listing', admin_products_path
+.container.text-center.show-box
+  = link_to 'Back to product listing', admin_products_path
+  br
+  br
+  .brand-bg
+    h1 ALL CATEGORIES
 
-h1 All Category
-
-= link_to 'Add new category', new_admin_category_path
-
-ol
-  - @categories.each do |category|
-    li
-      = category.name
-      |&nbsp;
-      = link_to 'Edit', edit_admin_category_path(category)
-      |&nbsp;
-      = link_to 'Delete', admin_category_path(category), method: :delete, 'data-confirm': 'Are you sure?'
+    = link_to 'Add new category', new_admin_category_path
+    br
+    br
+    - @categories.each do |category|
+      .containerlist
+        .containername
+          = category.name
+        |&nbsp;
+        .containerbtns
+          <button type="button" class="btn btn-dark">
+            = link_to 'Edit', edit_admin_category_path(category)
+          </button>
+          <button type="button" class="btn btn-danger">
+            = link_to 'Delete', admin_category_path(category), method: :delete, 'data-confirm': 'Are you sure?'
+          </button>
