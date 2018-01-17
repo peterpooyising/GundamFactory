@@ -9,12 +9,37 @@
 }
 
 .second-parallax {
-    background-image: url("background2.jpg");
+    display: flex;
+    flex-direction: row;
     min-height: 600px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: white;
+}
+
+.testimonial-photo {
+  background-image: url("gundambackground2.jpg");
+  flex-basis: 50%;
+  background-attachment: fixed;
+  background-position: 0 center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.testimonial-photo {
+  @media screen and (min-width:1200px) {
+    background-image: url("gundambackground1.jpg");
+  }
+}
+
+
+.testimonial-words {
+  flex-basis: 50%;
+  flex-direction: column;
+  border-top: 10px solid #000;
+  border-bottom: 10px solid #000;
+}
+
+.testimonial-title {
+  margin-bottom: 1em;
 }
 
 .hide {

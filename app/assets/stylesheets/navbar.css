@@ -6,9 +6,13 @@
   background-color: white;
   transition: top 0.3s;
   box-shadow: 0 4px 5px -5px gray;
+  font-size: 1.2rem;
 }
 
+.topnavbar {
+  font-size: 1.2rem;
+}
 
 a {
-    color: black;
+  color: black;
 }
