@@ -16,6 +16,7 @@
 @import url('https://fonts.googleapis.com/css?family=Coustard:400,900');
 body {
   font-family: 'Barlow Semi Condensed', sans-serif;
+  box-sizing: border-box;
 }
 
 .flash-banner {
