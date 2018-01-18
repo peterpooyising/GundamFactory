@@ -1,8 +1,7 @@
 div class="container"
-  .row.mt-4.justify-content-center
-    .col-8
-      h2.text-center New Transaction
-      = form_tag transactions_path do
-        p Please enter your payment details:
-        div id="dropin"
-        = submit_tag "Pay $#{sprintf('%.2f', current_customer.cart_total_price)}", class: "btn btn-success btn-block w-50 mx-auto mt-3 "
+  .row.mt-4.justify-content-center.checkout
+    h2.text-center New Transaction
+    = form_tag transactions_path do
+      p Please enter your payment details:
+      div id="dropin"
+      = submit_tag "Pay $#{sprintf('%.2f', current_customer.cart_total_price)}", class: "btn btn-success btn-block w-50 mx-auto mt-3 "

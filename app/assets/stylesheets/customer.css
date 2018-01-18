@@ -1,0 +1,19 @@
+  .container-customersignup form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-edit form {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+.customer-login-form-actions .button, .createaccount-btn .button {
+    border-radius: 0;
+}
+
+.createaccount {
+  max-width: 500px;
+}
