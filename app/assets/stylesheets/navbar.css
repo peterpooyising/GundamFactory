@@ -11,8 +11,17 @@
 
 .topnavbar {
   font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 a {
   color: black;
+}
+
+.imagelogo {
+  display: inline-block;
+  padding: 0;
+  margin: 0 2em;
 }

@@ -1,3 +1,3 @@
 # Heroku
 
-https://shopping-cart-gloger.herokuapp.com/
+https://gundamfactory.herokuapp.com/
