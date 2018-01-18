@@ -3,7 +3,7 @@
   br
   br
   h3 ADD NEW PRODUCT
-
-  = simple_form_for @brand, url: admin_brand_path(@brand), method: :put do |f|
-    = f.input :name
-    = f.button :submit, class: 'btn btn-success'
+  .editbrand
+    = simple_form_for @brand, url: admin_brand_path(@brand), method: :put do |f|
+      = f.input :name
+      = f.button :submit, class: 'btn btn-success'

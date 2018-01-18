@@ -1,3 +1,11 @@
 // Place all the styles related to the admin/categories controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.editcategory form, .editbrand form {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  input {
+    margin-bottom: 2em
+  }
+}

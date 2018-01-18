@@ -99,11 +99,10 @@ h1, h2, h3 {
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
   padding-right: 0;
   margin-bottom: 30px;
-  flex-basis: 90%;
+  flex-basis: 80%;
   padding: 1em;
-  width: max-content;
-  max-width: 1400px;
-
+  width: fit-content;
+  margin: 0;
 }
 
 .gallery {
@@ -128,4 +127,71 @@ h1, h2, h3 {
 .price {
   font-size: 25px;
   font-weight: bold;
+}
+
+
+.products-edit {
+  height: max-content;
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5vh
+}
+
+
+.form-edit-style {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-edit-style form {
+  display: flex;
+
+}
+
+.updateproductbutton {
+  margin: 1em auto 2em
+}
+
+.mt-1 {
+  margin: 0 !important
+}
+
+.productsedit {
+  display: inline-flex;
+}
+
+.productsimages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.productsimageseditbuttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  .btn {
+    padding: 0.5em 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.productsimagesedit {
+  margin: 0 auto
+}
+
+.mt-5.mb-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

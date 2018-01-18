@@ -21,7 +21,9 @@ Category.create(name: 'Zaku')
 
 Product.create(name: 'PF-73-3BL Lightning Warrior Gundam', category_ids: 1, brand_id: 1, cost_price: 3 , selling_price: 32, stock: 10, images_attributes: [{url: 'http://cdn.shopify.com/s/files/1/0736/6567/products/gundam-build-fighters-battlogue-high-grade-1-144-plastic-model-gundam-black-lightning-warrior_HYPETOKYO_1_grande.jpg?v=1501479346', position: 1}], description: 'PF-73-3BL Lightning Warrior Gundam')
 
-Product.create(name: 'Black Tri-Stars Zaku II Hi Maneuver Type', category_ids: 2, brand_id: 2, cost_price: 37 , selling_price: 38, stock: 10, images_attributes: [{url: 'https://images-na.ssl-images-amazon.com/images/I/51WcP-aDgFL.jpg', position: 1}], description: 'Black Tri-Stars Zaku II Hi Maneuver Type' )
+Product.create(name: 'MS-06 Zaku II', category_ids: 2, brand_id: 2, cost_price: 30 , selling_price: 38, stock: 10, images_attributes: [{url: 'https://images-na.ssl-images-amazon.com/images/I/51WcP-aDgFL.jpg', position: 1}], description: 'MS-06 Zaku II' )
+
+Product.create(name: 'Blaze Zaku Phantom', category_ids: 2, brand_id: 2, cost_price: 35 , selling_price: 38, stock: 10, images_attributes: [{url: 'https://images-na.ssl-images-amazon.com/images/I/51WcP-aDgFL.jpg', position: 1}], description: 'Blaze Zaku Phantom' )
 
 Product.create(name: 'RX-0 Unicorn Gundam', category_ids: 1, brand_id: 3, cost_price: 15 , selling_price: 45, stock: 10, images_attributes: [{url: 'https://images-na.ssl-images-amazon.com/images/I/41kFC8s6lzL._SY450_.jpg', position: 1}], description: 'RX-0 Unicorn Gundam' )
 
@@ -34,3 +36,5 @@ Product.create(name: 'GX-9901-DX Double X Gundam', category_ids: 1, brand_id: 5,
 Product.create(name: 'ZGMF-X666S Legend Gundam', category_ids: 1, brand_id: 6, cost_price: 15, selling_price: 55, stock: 10, images_attributes: [{url: 'https://cdn.shopify.com/s/files/1/0736/6567/products/gundam-seed-master-grade-1-100-plastic-model-zgmf-x13a-providence-gundam-g-u-n-d-a-m-premium-edition_HYPETOKYO_1_1024x1024.jpg?v=1486865949', position: 1}], description: "ZGMF-X666S Legend Gundam" )
 
 Product.create(name: 'RX-93 V GUNDAM', category_ids: 1, brand_id: 7, cost_price: 8, selling_price: 51, stock: 10, images_attributes: [{url: 'https://images-fe.ssl-images-amazon.com/images/I/417WTa3ZNxL._AA500_.jpg', position: 1}], description: 'RX-93 V GUNDAM' )
+
+Product.create(name: 'Black Tri-Stars Zaku II Hi Maneuver Type', category_ids: 2, brand_id: 2, cost_price: 37 , selling_price: 38, stock: 10, images_attributes: [{url: 'https://images-na.ssl-images-amazon.com/images/I/51WcP-aDgFL.jpg', position: 1}], description: 'Black Tri-Stars Zaku II Hi Maneuver Type' )
