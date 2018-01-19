@@ -6,8 +6,7 @@ https://gundamfactory.herokuapp.com/
 
 Customers are able to search for the Gundam models according to:
 - Price / Brand / Category / Name 
-<p>and add them to cart. They can view their selected models' details, price, quantities and make adjustments in the cart. When they wish to checkout, they will be required to sign in with their account or via Facebook. Once they are signed in, they can proceed for payment. Transactions are tracked using Braintree.</p>
-<br>
+<p>and add them to cart. They can view their selected models' details, price, quantities and make adjustments in the cart. When they wish to checkout, they will be required to sign in with their account or via Facebook. Once they are signed in, they can proceed for payment. Transactions are tracked using Braintree.</p><br>
 
 Admin is able to sign in to perform administrative functions in a seperate undisclosed URL. Admin will be able to keep track of
 - Stock Count / Cost Price / Selling Price 
