@@ -6,8 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Customer.create(email: 'customer@gmail.com', password: 'password')
-Admin.create(email: 'admin@gmail.com', password: 'password')
+Customer.create(email: 'customer@gmail.com', password: 'password123')
+Admin.create(email: 'admin@gmail.com', password: 'password123')
 
 Brand.create(name: 'Gundam Build Fighters')
 Brand.create(name: 'Gundam: The Origin')

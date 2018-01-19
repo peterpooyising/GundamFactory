@@ -5,9 +5,9 @@
       <div class="form-inputs form-style flexgrow">
         <div class="flexchild">
         <h2>Log in</h2>
-        <p>Please log in using the email and password given below.</p><br>
+        <p>Please log in using the email and password given below to reduce my database size.</p><br>
         <%= f.input :email, required: false, autofocus: true, label: false, placeholder: "customer@gmail.com", input_html: { class: "form-outline" } %>
-        <%= f.input :password, required: false, label: false, placeholder: "password", input_html: { class: "form-outline" } %>
+        <%= f.input :password, required: false, label: false, placeholder: "password123", input_html: { class: "form-outline" } %>
         <%= f.input :remember_me, as: :boolean if devise_mapping.rememberable? %>
       </div>
 
