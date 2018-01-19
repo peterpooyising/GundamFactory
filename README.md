@@ -1,3 +1,3 @@
-# Heroku
+# GUNDAMFACTORY
 
 https://gundamfactory.herokuapp.com/
