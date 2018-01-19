@@ -2,8 +2,7 @@
 
 https://gundamfactory.herokuapp.com/
 
-<strong>An ecommerce website selling Gundam models. It started off as a collaborative prototype website done in the bootcamp. I decided to create a ecommerce website using my knowledge and love for Gundam models. It comes with a customer ordering & payment functions as well as administrative functions.</strong>
-<br>
+<strong>An ecommerce website selling Gundam models. It started off as a collaborative prototype website done in the bootcamp. I decided to create a ecommerce website using my knowledge and love for Gundam models. It comes with a customer ordering & payment functions as well as administrative functions.</strong><br>
 
 Customers are able to search for the Gundam models according to:
 - Price / Brand / Category / Name 
