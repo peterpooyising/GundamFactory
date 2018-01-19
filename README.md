@@ -10,5 +10,6 @@ and add them to cart. They can view their selected models' details, price, quant
 
 
 
-Admin is able to sign in to perform administrative functions in a seperate undisclosed URL. Admin will be able to keep track of - Stock Count / Cost Price / Selling Price 
+Admin is able to sign in to perform administrative functions in a seperate undisclosed URL. Admin will be able to keep track of
+- Stock Count / Cost Price / Selling Price 
 Admin is also able to upload images of the models and customize the images shown in the website as well as perform standard CRUD operations on the models. Admin is also able to search for models using filters.
