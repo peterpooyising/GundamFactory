@@ -17,6 +17,7 @@
 body {
   font-family: 'Barlow Semi Condensed', sans-serif;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .flash-banner {
