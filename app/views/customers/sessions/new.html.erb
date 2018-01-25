@@ -5,7 +5,7 @@
       <div class="form-inputs form-style flexgrow">
         <div class="flexchild">
         <h2>Log in</h2>
-        <p>Please log in using the demo account's email and password given below to see an completed order. Once you are logged in, click on "Settings" in the navigation bar. Click on "Orders" on the dropdown menu. After that, click on the order number to view the completed order. </p><br>
+        <p>Please log in using the demo account's email and password given below to see an completed order. Once you are logged in, click on "Settings" in the navigation bar. Click on "Orders" on the dropdown menu. After that, click on the order number to view the completed order. To go to Admin's page, please click <a href="https://gundamfactory.herokuapp.com/admins/sign_in" style="text-decoration: underline">here</a>.</p><br>
         <%= f.input :email, required: false, autofocus: true, label: false, placeholder: "customer@gmail.com", input_html: { class: "form-outline" } %>
         <%= f.input :password, required: false, label: false, placeholder: "password123", input_html: { class: "form-outline" } %>
         <%= f.input :remember_me, as: :boolean if devise_mapping.rememberable? %>
